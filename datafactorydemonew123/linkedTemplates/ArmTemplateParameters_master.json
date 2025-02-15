@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactorydemonew123"
+		},
+		"AzureDataLakeStorage1temp_accountKey": {
+			"value": ""
+		},
+		"Snowflaktemp_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1temp_properties_typeProperties_url": {
+			"value": "https://adlsaccountnew1.dfs.core.windows.net/"
+		},
+		"Snowflaktemp_properties_typeProperties_database": {
+			"value": "sales_mart"
+		},
+		"Snowflaktemp_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
